@@ -6,3 +6,6 @@ Planning to include,
 2. Bulk email sending to notify election info
 3. Student data search engine
 4. Student voting card generator
+
+#To hacktoberfest Participants
+Please look into issues with help wanted tag.
