@@ -7,5 +7,5 @@ Planning to include,
 3. Student data search engine
 4. Student voting card generator
 
-#To hacktoberfest Participants
+To hacktoberfest Participants
 Please look into issues with help wanted tag.
