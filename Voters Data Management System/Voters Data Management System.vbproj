@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>Voters_Data_Management_System</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>Voters_Data_Management_System.Add_Voter_Data</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
