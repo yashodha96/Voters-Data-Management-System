@@ -30,7 +30,7 @@ Partial Class Add_Voter_Data
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.AddBtn = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -99,14 +99,14 @@ Partial Class Add_Voter_Data
         Me.TextBox4.Size = New System.Drawing.Size(418, 27)
         Me.TextBox4.TabIndex = 7
         '
-        'Button1
+        'AddBtn
         '
-        Me.Button1.Location = New System.Drawing.Point(451, 336)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(135, 43)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Add"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.AddBtn.Location = New System.Drawing.Point(451, 336)
+        Me.AddBtn.Name = "AddBtn"
+        Me.AddBtn.Size = New System.Drawing.Size(135, 43)
+        Me.AddBtn.TabIndex = 8
+        Me.AddBtn.Text = "Add"
+        Me.AddBtn.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -133,7 +133,7 @@ Partial Class Add_Voter_Data
         Me.ClientSize = New System.Drawing.Size(674, 423)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.AddBtn)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
@@ -157,7 +157,7 @@ Partial Class Add_Voter_Data
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents AddBtn As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
 End Class
